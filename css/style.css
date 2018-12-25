@@ -1,0 +1,247 @@
+
+h3{
+  color: #00BFFF;
+}
+
+h4{
+  color:    #000000;
+}
+
+.nav navbar-nav{
+  color: #000000;
+}
+  #home {
+  	padding-top:50px;
+  	height:500px;
+  	color: #696969;
+  	font-size: 20px;
+  
+  }
+
+  #aboutus {
+  	padding-top:50px;
+  	height:500px;
+  	color: #696969;
+  	text-align: center;
+
+  }
+  #team {
+  	padding-top:50px;
+  	/*padding-left: 100px;*/
+  	height:600px;
+  	color: #696969; 
+  	text-align: center;
+
+
+  }
+  p{
+  	text-align: center;
+  	font-size: 17px;
+  }
+
+
+  #services {
+  	padding-top:150px;
+  	height:500px;
+  	color: #696969; 
+  	text-align: center;
+
+  }
+
+  #portfolio {
+  	padding-top:100px;
+  	height:500px;
+  	color: #696969;
+    text-align: center;
+
+  }
+ /* #portfolio .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px;
+}
+
+ Create two equal columns that sits next to each other 
+#portfolio .column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+#portfolio .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}*/
+  #contact {
+  	padding-top:50px;
+  	height:500px;
+  	color: #696969;
+  	text-align: center;
+  ``
+}
+  
+/* .col-sm-6{
+ 	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	padding: 20px;
+ }*/
+
+ input[type=text], select, textarea {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.footer-distributed{
+	background-color: #f2f6f9; /*#292c2f;*/
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 13px  sansserif;
+
+	padding: 55px 200px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+	/*width: 100%;*/
+
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 60%;
+	padding: 0px;
+	float: left;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color: #00BFFF; /*#ffffff;*/
+	font: normal 25px 'Cookie', cursive;
+	padding-left: 125px;
+	
+
+	
+}
+
+.footer-distributed h3 span{
+	color:  #5383d3;
+	/*padding-left: 100px;*/
+
+	 
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #292c2f;
+	margin: 0px;
+	padding: 0;
+	
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+
+
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 40%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color: #292c2f; /*#ffffff;*/
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding-left: 150px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+	padding-left: 180px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+	
